@@ -64,8 +64,7 @@
                 </div>
                 <nav class="hidden md:flex flex-1 justify-end gap-8 items-center">
                     <div class="flex items-center gap-6">
-                        <a class="text-sm font-medium hover:text-primary transition-colors"
-                            href="index.html">Home</a>
+                        <a class="text-sm font-medium hover:text-primary transition-colors" href="index.html">Home</a>
                         <a class="text-sm font-medium text-primary" href="about.html">About
                             Us</a>
                         <a class="text-sm font-medium hover:text-primary transition-colors"
@@ -81,7 +80,34 @@
                     </a>
                 </nav>
                 <div class="md:hidden">
-                    <span class="material-symbols-outlined cursor-pointer">menu</span>
+                    <button id="mobile-menu-btn">
+                        <span class="material-symbols-outlined cursor-pointer">menu</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Navigation Menu (Hidden by default) -->
+            <div id="mobile-menu"
+                class="hidden md:hidden absolute top-16 left-0 w-full bg-white dark:bg-[#1a1a1a] border-b border-gray-100 dark:border-gray-700 shadow-lg animate-in slide-in-from-top-5 duration-200 z-50">
+                <div class="px-4 pt-2 pb-6 space-y-2">
+                    <a href="index.html"
+                        class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Home</a>
+                    <a href="about.html"
+                        class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">About
+                        Us</a>
+                    <a href="services.html"
+                        class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Services</a>
+                    <a href="case-studies.html"
+                        class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Case
+                        Studies</a>
+                    <a href="#"
+                        class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Blog</a>
+                    <a href="contact.html"
+                        class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Contact</a>
+                    <div class="pt-4 mt-2 border-t border-gray-100 dark:border-gray-700">
+                        <a href="contact.html"
+                            class="flex items-center justify-center w-full h-10 rounded-lg bg-primary text-white font-bold hover:bg-red-700 transition-colors">Book
+                            a Consultation</a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -410,32 +436,28 @@
                     <div>
                         <h3 class="text-lg font-bold mb-6 text-white">Quick Links</h3>
                         <ul class="space-y-3 text-gray-400 text-sm">
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="index.html">Home</a></li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="about.html">About Us</a></li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="services.html">Services</a></li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="case-studies.html">Case Studies</a></li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="contact.html">Contact</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="index.html">Home</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="about.html">About Us</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="services.html">Services</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="case-studies.html">Case
+                                    Studies</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                     <!-- Services -->
                     <div>
                         <h3 class="text-lg font-bold mb-6 text-white">Expertise</h3>
                         <ul class="space-y-3 text-gray-400 text-sm">
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="services.html">Business Consulting</a></li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="services.html">Startup Support</a></li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="services.html">Sales Training</a></li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="services.html">Process Automation</a></li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="services.html">SME Development</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="services.html">Business
+                                    Consulting</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="services.html">Startup Support</a>
+                            </li>
+                            <li><a class="hover:text-primary transition-colors" href="services.html">Sales Training</a>
+                            </li>
+                            <li><a class="hover:text-primary transition-colors" href="services.html">Process
+                                    Automation</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="services.html">SME Development</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- Newsletter -->
@@ -464,6 +486,7 @@
             </div>
         </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

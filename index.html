@@ -79,9 +79,35 @@
                     </a>
                 </div>
                 <!-- Mobile Menu Button -->
-                <button class="md:hidden flex items-center justify-center p-2 text-slate-600 dark:text-slate-300">
+                <button id="mobile-menu-btn"
+                    class="md:hidden flex items-center justify-center p-2 text-slate-600 dark:text-slate-300">
                     <span class="material-symbols-outlined">menu</span>
                 </button>
+            </div>
+        </div>
+        <!-- Mobile Navigation Menu (Hidden by default) -->
+        <div id="mobile-menu"
+            class="hidden md:hidden absolute top-20 left-0 w-full bg-white dark:bg-background-dark border-b border-gray-100 dark:border-gray-800 shadow-lg animate-in slide-in-from-top-5 duration-200">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="index.html"
+                    class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Home</a>
+                <a href="about.html"
+                    class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">About
+                    Us</a>
+                <a href="services.html"
+                    class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Services</a>
+                <a href="case-studies.html"
+                    class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Case
+                    Studies</a>
+                <a href="#"
+                    class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Blog</a>
+                <a href="contact.html"
+                    class="block px-3 py-2 text-base font-medium text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-red-50 dark:hover:bg-red-900/10 rounded-lg">Contact</a>
+                <div class="pt-4 mt-2 border-t border-gray-100 dark:border-gray-800">
+                    <a href="contact.html"
+                        class="flex items-center justify-center w-full h-10 rounded-lg bg-primary text-white font-bold hover:bg-red-700 transition-colors">Book
+                        a Consultation</a>
+                </div>
             </div>
         </div>
     </header>
@@ -408,6 +434,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
