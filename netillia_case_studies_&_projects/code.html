@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Netillia - Case Studies &amp; Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec1313",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221010",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display">
+    <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+        <!-- Top Navigation -->
+        <header
+            class="sticky top-0 z-50 w-full border-b border-[#f4f0f0] bg-white/90 backdrop-blur-md px-4 sm:px-10 py-3">
+            <div class="mx-auto flex h-14 max-w-7xl items-center justify-between">
+                <div class="flex items-center gap-4 text-[#181111]">
+                    <div class="size-8 text-primary">
+                        <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-[#181111] text-xl font-bold leading-tight tracking-[-0.015em]">Netillia</h2>
+                </div>
+                <nav class="hidden md:flex flex-1 justify-end gap-8">
+                    <div class="flex items-center gap-6 lg:gap-9">
+                        <a class="text-[#181111] text-sm font-medium hover:text-primary transition-colors"
+                            href="../netillia_home_page/code.html">Home</a>
+                        <a class="text-[#181111] text-sm font-medium hover:text-primary transition-colors"
+                            href="../netillia_services_page/code.html">Services</a>
+                        <a class="text-primary text-sm font-bold border-b-2 border-primary"
+                            href="../netillia_case_studies_&_projects/code.html">Case Studies</a>
+                        <a class="text-[#181111] text-sm font-medium hover:text-primary transition-colors"
+                            href="../netillia_about_us_page/code.html">About Us</a>
+                        <a class="text-[#181111] text-sm font-medium hover:text-primary transition-colors"
+                            href="#">Blog</a>
+                        <a class="text-[#181111] text-sm font-medium hover:text-primary transition-colors"
+                            href="../netillia_contact_page/code.html">Contact</a>
+                    </div>
+                    <a href="../netillia_contact_page/code.html"
+                        class="flex items-center justify-center overflow-hidden rounded-lg bg-primary hover:bg-red-700 transition-colors text-white text-sm font-bold h-10 px-5">
+                        <span class="truncate">Book Consultation</span>
+                    </a>
+                </nav>
+                <div class="flex md:hidden">
+                    <span class="material-symbols-outlined cursor-pointer text-2xl">menu</span>
+                </div>
+            </div>
+        </header>
+        <!-- Hero Section -->
+        <section class="relative w-full bg-white px-4 sm:px-10 py-12 md:py-20 lg:py-24">
+            <div class="mx-auto max-w-7xl">
+                <div class="grid gap-12 lg:grid-cols-2 items-center">
+                    <div class="flex flex-col gap-6">
+                        <div class="flex items-center gap-2">
+                            <div class="h-px w-8 bg-primary"></div>
+                            <span class="text-primary font-bold text-sm tracking-widest uppercase">Our Impact</span>
+                        </div>
+                        <h1
+                            class="text-4xl md:text-5xl lg:text-6xl font-black text-[#181111] leading-[1.1] tracking-tight">
+                            Real Stories,<br />
+                            <span class="text-primary">Measurable Growth.</span>
+                        </h1>
+                        <p class="text-lg text-slate-600 max-w-lg leading-relaxed">
+                            At Netillia, we don't just advise; we build. Explore how we've transformed chaos into
+                            structure for Nigerian entrepreneurs like you, driving measurable success and resilience.
+                        </p>
+                        <div class="flex flex-wrap gap-4 pt-4">
+                            <button
+                                class="flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-white font-bold text-base hover:bg-red-700 transition-colors shadow-lg shadow-red-200">
+                                View Success Stories
+                            </button>
+                            <a href="../netillia_services_page/code.html"
+                                class="flex items-center justify-center rounded-lg bg-transparent border-2 border-slate-200 px-6 py-3 text-[#181111] font-bold text-base hover:border-primary hover:text-primary transition-colors">
+                                How We Work
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="relative w-full aspect-[4/3] lg:aspect-square max-h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+                        <!-- Image: A modern office meeting in Lagos with diverse team collaborating around a whiteboard -->
+                        <div class="absolute inset-0 bg-cover bg-center"
+                            data-alt="Team collaborating on whiteboard strategy in modern office"
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAR2ljaMqnPf9r7-nrv0-nnTfNjddO5NXPHDtQpunr0p4H4j-b_4n-nHpWelhuzqwITqcmARALZyZ_n32jMDdHBtXcXSsrjBcDtCH0fLtXMuGMPFgC63rJUk-mLYUoViUeqJkA31gHnm8p8fR4OjG-5Rcg3_2UjeYb0kb90njK2Nlo4989IUtCHPofr64uUZ1H7-TNF_HWyFue0ADZtXEJzPXXePcQZNjs8pTFdDbqmyAAdd5lCV-m3j4EGxNn61q6alDHY32AFsgk');">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 right-6">
+                            <div
+                                class="flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl">
+                                <div class="flex -space-x-3">
+                                    <!-- Image: Portrait of a smiling professional woman -->
+                                    <img alt="Client" class="h-10 w-10 rounded-full border-2 border-white object-cover"
+                                        data-alt="Professional woman portrait"
+                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWnfAf3tnMzO6fqgiKvNjCvnikiSpknPFZRnMxyTehNLQhVjb6m-DOXc0wlQIsynMSGd9gRSyrYsK3PRDD5lY00HX1uMsTqQA6qtyoWBLB6H1M7UowHjOB_2fMYzSSlbEL7rWT4DqhsaXUIoSt5i5IIsP3Vu8CxQEPA9In7SUwQLEpRB3VJEC6tHQbNz_HivW7MpS8H6o0M-WU1eRs1LP3rh0GdEEbMSqqQsMWIZKgsfRteQS4DQNkaPU5gUxBCYTV7Bq6C8JZ5ho" />
+                                    <!-- Image: Portrait of a professional man in a suit -->
+                                    <img alt="Client" class="h-10 w-10 rounded-full border-2 border-white object-cover"
+                                        data-alt="Professional man portrait"
+                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuChCLNCmKB2AT3atkKt7swKJ1yRVVLghGWkXLuoaCqbuJejNJ0sRUUHYfbdOV67OCrdBUfkO9PykShOvUDCVM41ssEcgOvKhin3a4MyGbiEh5FHpm8dQ433sJVyQphl8-XtDtL9AQ3Kx4E4a5-31337e_DV2kYS6svLLNZYlVZAVE4mLrnAJPrbfcGDBGB4V8iIYV-LjkqKm2NqGIGHlMwd0z6DfSyHa8YRNWIwbo1Ne9S0EzUEPTwamHp6zmELDjxcbb-mNr-G-qg" />
+                                    <div
+                                        class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-primary text-xs font-bold text-white">
+                                        +50</div>
+                                </div>
+                                <div class="text-white">
+                                    <p class="font-bold">Trusted by 50+ Ventures</p>
+                                    <p class="text-xs opacity-80">Across Nigeria &amp; West Africa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Filter / Tabs -->
+        <div class="sticky top-20 z-40 w-full bg-background-light/95 backdrop-blur border-b border-slate-200 py-4 px-4">
+            <div class="mx-auto max-w-7xl overflow-x-auto">
+                <div class="flex gap-3 min-w-max">
+                    <button
+                        class="flex h-9 items-center gap-2 rounded-full bg-[#181111] px-4 text-white text-sm font-medium transition-transform active:scale-95">
+                        <span class="material-symbols-outlined text-[18px]">grid_view</span>
+                        All Industries
+                    </button>
+                    <button
+                        class="flex h-9 items-center gap-2 rounded-full bg-white border border-slate-200 px-4 text-slate-600 text-sm font-medium hover:border-primary hover:text-primary transition-colors">
+                        <span class="material-symbols-outlined text-[18px]">storefront</span>
+                        Retail &amp; SME
+                    </button>
+                    <button
+                        class="flex h-9 items-center gap-2 rounded-full bg-white border border-slate-200 px-4 text-slate-600 text-sm font-medium hover:border-primary hover:text-primary transition-colors">
+                        <span class="material-symbols-outlined text-[18px]">rocket_launch</span>
+                        Tech Startups
+                    </button>
+                    <button
+                        class="flex h-9 items-center gap-2 rounded-full bg-white border border-slate-200 px-4 text-slate-600 text-sm font-medium hover:border-primary hover:text-primary transition-colors">
+                        <span class="material-symbols-outlined text-[18px]">potted_plant</span>
+                        Agri-Business
+                    </button>
+                    <button
+                        class="flex h-9 items-center gap-2 rounded-full bg-white border border-slate-200 px-4 text-slate-600 text-sm font-medium hover:border-primary hover:text-primary transition-colors">
+                        <span class="material-symbols-outlined text-[18px]">precision_manufacturing</span>
+                        Logistics
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Featured Case Study (Detailed Layout) -->
+        <section class="py-16 px-4 sm:px-10 bg-white">
+            <div class="mx-auto max-w-7xl">
+                <div class="mb-10">
+                    <span class="text-primary font-bold text-sm tracking-widest uppercase mb-2 block">Featured Success
+                        Story</span>
+                    <h2 class="text-3xl font-bold text-[#181111]">GOM Logistics: Automating Dispatch</h2>
+                </div>
+                <div class="grid lg:grid-cols-12 gap-8 lg:gap-12">
+                    <!-- Left Sidebar: At a Glance -->
+                    <div class="lg:col-span-4 flex flex-col gap-6">
+                        <div class="rounded-xl overflow-hidden shadow-lg">
+                            <!-- Image: Logistics truck on a highway in Lagos -->
+                            <div class="aspect-video w-full bg-cover bg-center"
+                                data-alt="Logistics truck moving cargo on Nigerian highway"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAKyxnGBZP3v17N4aL4eQ8mHtxbZglOeMa2I6CS5Sv8Sq1t7QtblarzFC10a2QUPkEKGQ07dDJSPkOCB2d1Uk9GhYTDqhknl5Bhr4rvCTh8TOLbkfA6dpxEb9ziZvTqO_cA-_l4pipk5GCKCCGFP5a6oSShGR2OeSf858ArO1mHDspzJXheHQkZbXyAZohyJjCK1g8JIBsy5KQSmGwknB8iLbiOv_XXBRKsZ0HqFmsc99RQURZyS9hB_LlrZtBKWyxC82wuC3qPi6E');">
+                            </div>
+                            <div class="p-6 bg-slate-50 border border-t-0 border-slate-100">
+                                <h3 class="font-bold text-lg mb-4 text-[#181111]">Project Overview</h3>
+                                <div class="space-y-4">
+                                    <div>
+                                        <p class="text-xs text-slate-500 uppercase font-semibold">Client Industry</p>
+                                        <div class="flex items-center gap-2 text-slate-800 font-medium">
+                                            <span
+                                                class="material-symbols-outlined text-primary text-sm">local_shipping</span>
+                                            Logistics &amp; Transportation
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs text-slate-500 uppercase font-semibold">Services</p>
+                                        <p class="text-slate-800">Process Automation, Staff Training</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs text-slate-500 uppercase font-semibold">Duration</p>
+                                        <p class="text-slate-800">4 Months</p>
+                                    </div>
+                                    <div class="pt-2 border-t border-slate-200 mt-2">
+                                        <p class="text-xs text-slate-500 uppercase font-semibold">Key Result</p>
+                                        <p class="text-2xl font-black text-primary">300% Efficiency</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial -->
+                        <div class="bg-slate-900 p-6 rounded-xl text-white relative overflow-hidden">
+                            <span
+                                class="material-symbols-outlined absolute top-4 right-4 text-white/10 text-6xl">format_quote</span>
+                            <p class="italic text-slate-200 mb-6 relative z-10">"Netillia didn't just give us a report;
+                                they implemented a system that runs itself. Our dispatch times dropped by half within
+                                weeks."</p>
+                            <div class="flex items-center gap-3">
+                                <!-- Image: Headshot of Nigerian business man smiling -->
+                                <div class="h-10 w-10 rounded-full bg-cover bg-center"
+                                    data-alt="Headshot of Nigerian CEO"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBCU_MTB1LwfyN-d4kUkfPyUOw3kKf9d5tDEDPb8GOcOJN7EZ-xo66dG9xnpb-LB93V__WDqEVO3uIeqXY0f0qmipYoHeKA_W3VQT2EVNAQfOS4VzJSpKj1486Xze9T_mCXYIhOLxi_9aeQEMCt0U83Y6T3-txTdRDQdKf8wkcHU3iuA3jCWUgDiVEnZz80XAGGR_ve73PKFwnJjIlBPUjYyAISzLcELyHiD1-73b_fq_vV7GNRbKkidhgzd9wrFtsCeONOK-mKXGI');">
+                                </div>
+                                <div>
+                                    <p class="font-bold text-sm">Chinedu Okafor</p>
+                                    <p class="text-xs text-slate-400">CEO, GOM Logistics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Content: Narrative -->
+                    <div class="lg:col-span-8 flex flex-col gap-10">
+                        <!-- Challenge -->
+                        <div class="group">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div
+                                    class="flex h-10 w-10 items-center justify-center rounded-full bg-red-50 text-primary font-bold">
+                                    01</div>
+                                <h3 class="text-2xl font-bold text-[#181111]">The Challenge</h3>
+                            </div>
+                            <p class="text-slate-600 leading-relaxed pl-[56px]">
+                                GOM Logistics was facing a critical bottleneck. Despite a growing fleet, their manual
+                                dispatch process resulted in lost orders, driver downtime, and increasing customer
+                                complaints. They needed to move from pen-and-paper tracking to a digital-first operation
+                                without disrupting daily business.
+                            </p>
+                        </div>
+                        <!-- Solution -->
+                        <div class="group">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div
+                                    class="flex h-10 w-10 items-center justify-center rounded-full bg-red-50 text-primary font-bold">
+                                    02</div>
+                                <h3 class="text-2xl font-bold text-[#181111]">The Netillia Solution</h3>
+                            </div>
+                            <div class="pl-[56px] space-y-4">
+                                <p class="text-slate-600 leading-relaxed">
+                                    We deployed a two-phase strategy focusing on Structure and Automation.
+                                </p>
+                                <ul class="space-y-3">
+                                    <li class="flex items-start gap-3">
+                                        <span class="material-symbols-outlined text-green-600 mt-1">check_circle</span>
+                                        <span class="text-slate-700"><strong>Workflow Audit:</strong> Mapped out every
+                                            step of the delivery process to identify redundancy.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="material-symbols-outlined text-green-600 mt-1">check_circle</span>
+                                        <span class="text-slate-700"><strong>Custom Automation Tools:</strong>
+                                            Implemented a low-code dispatch dashboard integrated with WhatsApp for
+                                            drivers.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="material-symbols-outlined text-green-600 mt-1">check_circle</span>
+                                        <span class="text-slate-700"><strong>Capacity Building:</strong> Trained 3
+                                            managers and 25 drivers on the new digital tools.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Outcome -->
+                        <div class="group">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div
+                                    class="flex h-10 w-10 items-center justify-center rounded-full bg-red-50 text-primary font-bold">
+                                    03</div>
+                                <h3 class="text-2xl font-bold text-[#181111]">The Outcome</h3>
+                            </div>
+                            <div class="pl-[56px]">
+                                <p class="text-slate-600 leading-relaxed mb-8">
+                                    Within 3 months, GOM Logistics saw a complete turnaround in operational stability,
+                                    allowing the founder to step back from day-to-day firefighting.
+                                </p>
+                                <!-- Results Visuals -->
+                                <div class="grid sm:grid-cols-2 gap-6">
+                                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-100">
+                                        <p class="text-sm text-slate-500 mb-2">Order Processing Time</p>
+                                        <div class="flex items-end gap-2 mb-2">
+                                            <div class="h-24 w-12 bg-slate-300 rounded-t-md relative group">
+                                                <span
+                                                    class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs font-bold text-slate-500">45m</span>
+                                            </div>
+                                            <div class="h-8 w-12 bg-primary rounded-t-md relative group">
+                                                <span
+                                                    class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs font-bold text-primary">10m</span>
+                                            </div>
+                                        </div>
+                                        <p class="text-xs font-medium text-slate-400">Before vs After</p>
+                                    </div>
+                                    <div
+                                        class="bg-slate-50 p-6 rounded-xl border border-slate-100 flex flex-col justify-center">
+                                        <div class="flex items-center gap-2 mb-4">
+                                            <span class="material-symbols-outlined text-green-600">trending_up</span>
+                                            <span class="font-bold text-slate-800">Growth Metrics</span>
+                                        </div>
+                                        <div class="space-y-4">
+                                            <div>
+                                                <div class="flex justify-between text-sm mb-1">
+                                                    <span>Customer Retention</span>
+                                                    <span class="font-bold">85%</span>
+                                                </div>
+                                                <div class="h-2 w-full bg-slate-200 rounded-full overflow-hidden">
+                                                    <div class="h-full bg-primary w-[85%]"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="flex justify-between text-sm mb-1">
+                                                    <span>Revenue Growth (Q1)</span>
+                                                    <span class="font-bold">40%</span>
+                                                </div>
+                                                <div class="h-2 w-full bg-slate-200 rounded-full overflow-hidden">
+                                                    <div class="h-full bg-primary w-[40%]"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- More Case Studies Grid -->
+        <section class="py-16 px-4 sm:px-10 bg-[#f8f6f6]">
+            <div class="mx-auto max-w-7xl">
+                <h2 class="text-3xl font-bold text-[#181111] mb-10">More Success Stories</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Card 1 -->
+                    <div
+                        class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full border border-transparent hover:border-slate-100">
+                        <div class="relative overflow-hidden h-56">
+                            <!-- Image: Modern African woman working in a colorful textile shop -->
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                data-alt="Female entrepreneur in textile shop"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBrY4y0wUwXrP6WPQxXtzc01es1rKOeU7ANXFbD0B14NlZInqzHeeZQ4JqC9aFuRN37y3QwCm6Svg38OvJRaLMni0F-GNyb-xJD6ZZXH-hgAkdrgvzElRbWS42wPHmREUnW-UIws7vuf8KlG89KUkjRVThl_R1Gs7cpDWtQ_geSCZp3T1IOZ2hFaQfepzEXBrNGxabAxjUSwYJmDeMiApiZX34mXxPazdunqDIF85fwJQQ-0ePic_yPgh2UIpJ57L21dUNaEb9nT3A');">
+                            </div>
+                            <div
+                                class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-primary">
+                                Retail</div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-1">
+                            <h3
+                                class="text-xl font-bold text-[#181111] mb-2 group-hover:text-primary transition-colors">
+                                TARA Fabrics: Market Expansion</h3>
+                            <p class="text-slate-600 text-sm mb-4 line-clamp-3">
+                                Helping a local textile brand structure their inventory and launch an e-commerce
+                                channel, resulting in national distribution.
+                            </p>
+                            <div class="mt-auto pt-4 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-slate-400">Result: 2 New Outlets</span>
+                                <a class="text-primary text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all"
+                                    href="#">
+                                    Read Story <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div
+                        class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full border border-transparent hover:border-slate-100">
+                        <div class="relative overflow-hidden h-56">
+                            <!-- Image: Young tech team coding in a brightly lit office -->
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                data-alt="Tech startup team coding"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCega5pGQsKDRaooi217T9qgE--YwkewN-OQ2BOQrXURTB76sDXc3pOO9Renu3-0RPRM4UXq-dk9G-dlZZ4yXSlN5L60BzajkG-GrCr78Rv-NFCldLtHgDDDKXODv9tjGyd18y8_jxYHn89SSDg7sXavKqSPTQV9QVYlpeJhEhyXdHzJOaT3N1LCqNkfnX_bf3R73yWzxeX4E89jOoezUK1vNmpUz8j-WbC4qxEJue5_SZRyxqj2ICwKoMCZBaoJaCEMVVVbHzb1rs');">
+                            </div>
+                            <div
+                                class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-primary">
+                                Tech Startup</div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-1">
+                            <h3
+                                class="text-xl font-bold text-[#181111] mb-2 group-hover:text-primary transition-colors">
+                                PayFlow: Investment Ready</h3>
+                            <p class="text-slate-600 text-sm mb-4 line-clamp-3">
+                                Guided a fintech startup through financial modeling and pitch deck refinement to secure
+                                pre-seed funding.
+                            </p>
+                            <div class="mt-auto pt-4 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-slate-400">Result: $50k Raised</span>
+                                <a class="text-primary text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all"
+                                    href="#">
+                                    Read Story <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div
+                        class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full border border-transparent hover:border-slate-100">
+                        <div class="relative overflow-hidden h-56">
+                            <!-- Image: Modern farm machinery in a field -->
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                data-alt="Agricultural machinery in field"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuANYFTtGbWKNbs-0pcWHnAxdZZBa5Jh-5KSnwcUINvK18WxgWOhyC027cbYILjzEoQjTcXV2hIMWR5MtxfIpKP2oSlGqwhJLO4ZTLjlvJuo9nnUsaHy0fWAEwxXhvtAWjwK9-p9Iwj50O_09UyhYcFpmlzAN3teTR01suZCWoDvg6q7DXTplU_D44aCCdJZRwioPyfE3xpSFgT6OlJEO6Q6EdQOj36fC7Ng-r7HcKKhA2FUq0KgqH0YGYrSDG4wE8pN_H_0uC_4tQ8');">
+                            </div>
+                            <div
+                                class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-primary">
+                                Agriculture</div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-1">
+                            <h3
+                                class="text-xl font-bold text-[#181111] mb-2 group-hover:text-primary transition-colors">
+                                GreenHarvest: Supply Chain Fix</h3>
+                            <p class="text-slate-600 text-sm mb-4 line-clamp-3">
+                                Optimizing the farm-to-table supply chain for an organic produce company, reducing
+                                spoilage significantly.
+                            </p>
+                            <div class="mt-auto pt-4 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs font-semibold text-slate-400">Result: 60% Less Waste</span>
+                                <a class="text-primary text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all"
+                                    href="#">
+                                    Read Story <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-12">
+                    <button
+                        class="flex items-center gap-2 px-6 py-3 border border-slate-300 rounded-lg text-slate-600 hover:bg-slate-50 font-medium transition-colors">
+                        Load More Projects
+                        <span class="material-symbols-outlined">expand_more</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Section -->
+        <section class="relative w-full bg-[#181111] py-20 px-4 sm:px-10 overflow-hidden">
+            <!-- Abstract background pattern -->
+            <div class="absolute top-0 right-0 w-1/2 h-full opacity-10 bg-gradient-to-l from-primary to-transparent">
+            </div>
+            <div class="absolute -bottom-24 -left-24 w-64 h-64 bg-primary/20 rounded-full blur-3xl"></div>
+            <div class="relative mx-auto max-w-4xl text-center z-10">
+                <h2 class="text-3xl md:text-5xl font-black text-white mb-6 tracking-tight">
+                    Want results like these?
+                </h2>
+                <p class="text-slate-400 text-lg mb-10 max-w-2xl mx-auto">
+                    Your business has the potential to scale. Let’s build the structure and strategy you need to stop
+                    struggling and start growing.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="../netillia_contact_page/code.html"
+                        class="w-full sm:w-auto flex items-center justify-center rounded-lg bg-primary px-8 py-4 text-white font-bold text-lg hover:bg-red-700 transition-colors shadow-lg shadow-red-900/50">
+                        Book a Free Consultation
+                    </a>
+                    <a href="../netillia_services_page/code.html"
+                        class="w-full sm:w-auto flex items-center justify-center rounded-lg bg-transparent border border-slate-600 px-8 py-4 text-white font-medium text-lg hover:bg-white/10 transition-colors">
+                        View Services
+                    </a>
+                </div>
+                <div class="mt-8 flex items-center justify-center gap-2 text-slate-500 text-sm">
+                    <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                    <span>No commitment required</span>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-background-dark text-white pt-20 pb-10 border-t border-gray-800">
+            <div class="max-w-[1280px] mx-auto px-4 sm:px-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                    <!-- Brand Info -->
+                    <div class="flex flex-col gap-4">
+                        <div class="flex items-center gap-2 mb-2">
+                            <div class="flex h-8 w-8 items-center justify-center rounded bg-primary text-white">
+                                <span class="material-symbols-outlined text-xl">all_inclusive</span>
+                            </div>
+                            <h2 class="text-xl font-bold">Netillia</h2>
+                        </div>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Empowering Nigerian entrepreneurs with strategy, automation, and resilience. We turn
+                            ambitious
+                            ideas into sustainable businesses.
+                        </p>
+                        <div class="flex gap-4 mt-2">
+                            <a class="text-gray-400 hover:text-white transition-colors" href="#"><span
+                                    class="material-symbols-outlined">public</span></a> <!-- placeholder for social -->
+                            <a class="text-gray-400 hover:text-white transition-colors" href="#"><span
+                                    class="material-symbols-outlined">group</span></a> <!-- placeholder for social -->
+                            <a class="text-gray-400 hover:text-white transition-colors" href="#"><span
+                                    class="material-symbols-outlined">chat</span></a> <!-- placeholder for social -->
+                        </div>
+                    </div>
+                    <!-- Quick Links -->
+                    <div>
+                        <h3 class="text-lg font-bold mb-6 text-white">Quick Links</h3>
+                        <ul class="space-y-3 text-gray-400 text-sm">
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_home_page/code.html">Home</a></li>
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_about_us_page/code.html">About Us</a></li>
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_services_page/code.html">Services</a></li>
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_case_studies_&_projects/code.html">Case Studies</a></li>
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_contact_page/code.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- Services -->
+                    <div>
+                        <h3 class="text-lg font-bold mb-6 text-white">Expertise</h3>
+                        <ul class="space-y-3 text-gray-400 text-sm">
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_services_page/code.html">Business Consulting</a></li>
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_services_page/code.html">Startup Support</a></li>
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_services_page/code.html">Sales Training</a></li>
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_services_page/code.html">Process Automation</a></li>
+                            <li><a class="hover:text-primary transition-colors"
+                                    href="../netillia_services_page/code.html">SME Development</a></li>
+                        </ul>
+                    </div>
+                    <!-- Newsletter -->
+                    <div>
+                        <h3 class="text-lg font-bold mb-6 text-white">Join Our Newsletter</h3>
+                        <p class="text-gray-400 text-sm mb-4">Get the latest business insights and trends delivered to
+                            your
+                            inbox.</p>
+                        <form class="flex flex-col gap-3">
+                            <input
+                                class="bg-white/5 border border-gray-700 text-white text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 placeholder-gray-500"
+                                placeholder="Enter your email" required="" type="email" />
+                            <button
+                                class="text-white bg-primary hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-primary/30 font-bold rounded-lg text-sm w-full px-5 py-2.5 text-center transition-colors"
+                                type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-gray-500 text-sm">© 2024 Netillia Consulting. All rights reserved.</p>
+                    <div class="flex gap-6 text-sm text-gray-500">
+                        <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+                        <a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

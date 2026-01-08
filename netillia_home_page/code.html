@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Netillia - Powering Nigerian Entrepreneurs</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec1313",
+                        "background-light": "#ffffff",
+                        "background-off-white": "#f8f6f6",
+                        "background-dark": "#221010",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "sans": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-50 font-display transition-colors duration-200">
+    <!-- Top Navbar -->
+    <header
+        class="sticky top-0 z-50 w-full border-b border-gray-100 dark:border-gray-800 bg-white/95 dark:bg-background-dark/95 backdrop-blur-sm">
+        <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex h-20 items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center gap-3">
+                    <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
+                        <span class="material-symbols-outlined text-3xl">all_inclusive</span>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Netillia</span>
+                </div>
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex flex-1 items-center justify-center gap-8">
+                    <a class="text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors"
+                        href="../netillia_home_page/code.html">Home</a>
+                    <a class="text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors"
+                        href="../netillia_about_us_page/code.html">About Us</a>
+                    <a class="text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors"
+                        href="../netillia_services_page/code.html">Services</a>
+                    <a class="text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors"
+                        href="../netillia_case_studies_&_projects/code.html">Case Studies</a>
+                    <a class="text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors"
+                        href="#">Blog</a>
+                    <a class="text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors"
+                        href="../netillia_contact_page/code.html">Contact</a>
+                </nav>
+                <!-- CTA Button -->
+                <div class="hidden md:flex items-center gap-4">
+                    <a href="../netillia_contact_page/code.html"
+                        class="flex h-10 items-center justify-center rounded-lg bg-primary px-6 text-sm font-bold text-white transition-transform hover:scale-105 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 dark:focus:ring-offset-background-dark">
+                        Book a Consultation
+                    </a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden flex items-center justify-center p-2 text-slate-600 dark:text-slate-300">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="relative bg-background-dark dark:bg-black overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30 z-10"></div>
+            <div class="h-full w-full bg-cover bg-center"
+                data-alt="Modern African entrepreneurs collaborating in a sleek glass office"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAxF7F7lQdyIKYQs17jnyCllumfgRiHY7BDjjERa42V7ZylpjK07v2YjoodhOW7wdhTzvc7onypxO5XXIh7ImkpyiqjixwBBMDIY0oQKwYtNvN35OcO75Dc-g1QiF3CGS4x5M3LJmj4KV2QmXmL30c5qYkcaXUPM3VSm_-T5e6Y3xI08SL_Qn3hX5q4_MySmDK_nFH5ymHXf6Dq1HDDd731AX2Gfydw9GLEhLy5D3f8uUoVMUEtV_Prg3rjSXfUbveFMu4cjkCpMys');">
+            </div>
+        </div>
+        <div class="relative z-10 max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl tracking-tight mb-6">
+                    Powering the Future of <span class="text-primary">Nigerian Entrepreneurs</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-200 mb-10 max-w-2xl font-light leading-relaxed">
+                    With strategy, automation, and resilience. We provide insight and support services to budding
+                    entrepreneurs and intrapreneurs to help you build a legacy.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="../netillia_contact_page/code.html"
+                        class="flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-base font-bold text-white transition-all hover:bg-red-700 shadow-lg shadow-red-900/20">
+                        Book a Consultation
+                    </a>
+                    <a href="../netillia_services_page/code.html"
+                        class="flex h-12 items-center justify-center rounded-lg bg-white/10 backdrop-blur-sm border border-white/30 px-8 text-base font-bold text-white transition-all hover:bg-white hover:text-background-dark">
+                        Explore Services
+                    </a>
+                    <button
+                        class="flex h-12 items-center justify-center rounded-lg bg-transparent px-6 text-base font-bold text-white hover:text-primary transition-colors gap-2">
+                        <span class="material-symbols-outlined">mail</span>
+                        Join Newsletter
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Snippet Section -->
+    <section class="py-20 bg-background-light dark:bg-background-dark">
+        <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="flex flex-col gap-6">
+                    <div class="inline-flex items-center gap-2 text-primary font-bold uppercase tracking-wider text-sm">
+                        <span class="w-8 h-[2px] bg-primary"></span>
+                        About Netillia
+                    </div>
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white sm:text-4xl leading-tight">
+                        Bridging the Gap Between <br />Idea and Execution
+                    </h2>
+                    <p class="text-slate-600 dark:text-slate-300 text-lg leading-relaxed">
+                        We provide insight and business support services to budding entrepreneurs and intrapreneurs.
+                        Whether you need to formalize your startup structure or automate your sales pipeline, Netillia
+                        is your partner in growth.
+                    </p>
+                    <div class="pt-4">
+                        <a class="inline-flex items-center text-primary font-bold hover:gap-2 transition-all"
+                            href="../netillia_about_us_page/code.html">
+                            Read Our Story
+                            <span class="material-symbols-outlined ml-1">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl"
+                        data-alt="Close up of diverse hands stacking blocks representing business growth">
+                        <div class="w-full h-full bg-cover bg-center"
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBWbsd2fTWQM_h1flSr5B7GgS-DXST_UFuDUdeL8P0qYaj_EoW8JLEStpJFKCE0DwaBP9obdtFG-Ezvc44GLL5GcbiQmX3awDYU9mFfneX3xVWOrXLC5mxkeFIbHMsCna0jAlnqq-6y1BviGhGwpwp0m4u0jGRE9QgHtSSe6QKgZYmOCZbBqDQuRs5btq0H5yeAOcTj7WyxAR08JiGKn2dvwM_sQscqQD-XiiGK1eQy8q9n_gQoOZ_KjiYggNtyIVnpCFtYmyJ78oc');">
+                        </div>
+                    </div>
+                    <!-- Decorative Element -->
+                    <div
+                        class="absolute -bottom-6 -left-6 bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg max-w-[200px] border-l-4 border-primary hidden md:block">
+                        <p class="text-3xl font-bold text-slate-900 dark:text-white">500+</p>
+                        <p class="text-sm text-slate-500 dark:text-slate-400">SMEs Supported Across Nigeria</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Core Pillars / Features -->
+    <section class="py-20 bg-background-off-white dark:bg-[#2a1414]">
+        <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 dark:text-white sm:text-4xl mb-4">Our Core Pillars</h2>
+                <p class="text-slate-600 dark:text-slate-300 text-lg">We help you build a resilient foundation for
+                    success through our specialized SME development consulting.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Start -->
+                <div
+                    class="group bg-white dark:bg-background-dark p-8 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div
+                        class="h-14 w-14 rounded-xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors text-primary">
+                        <span class="material-symbols-outlined text-3xl">rocket_launch</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Start</h3>
+                    <p class="text-slate-600 dark:text-slate-400 mb-6">Expert guidance on business structure, legal
+                        formation, and go-to-market strategies for Nigerian startups.</p>
+                    <a class="inline-flex items-center text-sm font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors"
+                        href="../netillia_contact_page/code.html">
+                        Get Started <span class="material-symbols-outlined text-sm ml-1">chevron_right</span>
+                    </a>
+                </div>
+                <!-- Grow -->
+                <div
+                    class="group bg-white dark:bg-background-dark p-8 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div
+                        class="h-14 w-14 rounded-xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors text-primary">
+                        <span class="material-symbols-outlined text-3xl">trending_up</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Grow</h3>
+                    <p class="text-slate-600 dark:text-slate-400 mb-6">Sales training, marketing expansion strategies,
+                        and scaling frameworks tailored for growth-stage businesses.</p>
+                    <a class="inline-flex items-center text-sm font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors"
+                        href="../netillia_contact_page/code.html">
+                        Scale Up <span class="material-symbols-outlined text-sm ml-1">chevron_right</span>
+                    </a>
+                </div>
+                <!-- Automate -->
+                <div
+                    class="group bg-white dark:bg-background-dark p-8 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div
+                        class="h-14 w-14 rounded-xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors text-primary">
+                        <span class="material-symbols-outlined text-3xl">settings_suggest</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Automate</h3>
+                    <p class="text-slate-600 dark:text-slate-400 mb-6">Streamline operations with cutting-edge
+                        automation tools to save time and reduce operational costs.</p>
+                    <a class="inline-flex items-center text-sm font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors"
+                        href="../netillia_contact_page/code.html">
+                        Optimize Now <span class="material-symbols-outlined text-sm ml-1">chevron_right</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quick Links / Navigation Highlights -->
+    <section class="py-20 bg-background-light dark:bg-background-dark">
+        <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-2">Explore Netillia</h2>
+                    <p class="text-slate-600 dark:text-slate-400">Everything you need to succeed in one place.</p>
+                </div>
+                <a class="hidden sm:inline-flex items-center font-medium text-primary hover:underline" href="#">
+                    View Sitemap <span class="material-symbols-outlined text-sm ml-1">arrow_outward</span>
+                </a>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <a class="group relative flex flex-col justify-end overflow-hidden rounded-2xl aspect-[4/5] bg-gray-100"
+                    href="../netillia_services_page/code.html">
+                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                        data-alt="Business professionals looking at documents in a meeting"
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAoDGKhSM05H5zgXsV0bZ48Yc4M5aYgnJZwk9BJCq6LeANnN9bEUr9sGq_AZLX3LQHoOq5NigclBBJUP_JU75nzu89YuAR03kYzcljgth4t7F7Pz4G1BNHAh-nkMQjfFaAqBUxxJE6xT9Xjc8u3z690IBAOtjpZpISQAWuUIGM1Q6H5Xu8-eel4oLdNfc7tSsP1fbEl7ds0gcsWaETLxSlADOib-_NWYxjJ6XPFchU9Y8ry1sQhuQcAz3pM2ztBtJvBeKTI7SOjHs0');">
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                    <div class="relative p-6">
+                        <div
+                            class="mb-2 h-10 w-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white">
+                            <span class="material-symbols-outlined">design_services</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-1">Our Services</h3>
+                        <p class="text-sm text-gray-300">Detailed consulting packages.</p>
+                    </div>
+                </a>
+                <!-- Card 2 -->
+                <a class="group relative flex flex-col justify-end overflow-hidden rounded-2xl aspect-[4/5] bg-gray-100"
+                    href="#">
+                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                        data-alt="Modern laptop on a desk with analytics charts"
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDdPyHjKj6f_0tJkfckU6BszS6Qp-JrWbBzsMlfbD0ETecSEMSs-pji0cRiDiNN9hpHnz4Rn7vka4oZUGrkEIDgEYyKXJcf4X0MbT6eF6c9dR8U_MOM6w6_9vfkAgN9oo1wxrvMY7NqlnqYl4PNoJtBGWGiYuhFHZyLWhHrpoTYtib6VwX_0EqUanTdbOCZpABunIQzYzoj-KIdn4VrlJ_ukfHGm3w_zd6funy5Z_cnxQ4Mwz5k_59fIfoeEkpTzFl_SZQ0PAE3uXQ');">
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                    <div class="relative p-6">
+                        <div
+                            class="mb-2 h-10 w-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white">
+                            <span class="material-symbols-outlined">menu_book</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-1">Blog &amp; Resources</h3>
+                        <p class="text-sm text-gray-300">Insights for growth.</p>
+                    </div>
+                </a>
+                <!-- Card 3 -->
+                <a class="group relative flex flex-col justify-end overflow-hidden rounded-2xl aspect-[4/5] bg-gray-100"
+                    href="../netillia_testimonials_page/code.html">
+                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                        data-alt="Happy diverse team celebrating a success"
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAIVRbS5G9gOmLwZHNYkiYLKb2IDY9fLO_O6jDRQPl-INEAmnLZFKQs8zMKoX8dgLwMfQ42TNfWT61zii5Q_hkWy2zgl89vTcc0QoIJ20g7P4C7_AhQwfXFb8pDVMpmlJgoLWVdpA2YMP7p73zFRqQMsLK7QmcrIp0FyAO7rzzDf0spMuo6SoprfZEuZINKNX0s-7vAby1Xr7t3WrKsdsYqepOLG8baBcyw825E-7caYHljGSBnD863cwNvw1u7ILqYJz2hzigpoko');">
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                    <div class="relative p-6">
+                        <div
+                            class="mb-2 h-10 w-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white">
+                            <span class="material-symbols-outlined">format_quote</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-1">Testimonials</h3>
+                        <p class="text-sm text-gray-300">Client success stories.</p>
+                    </div>
+                </a>
+                <!-- Card 4 -->
+                <a class="group relative flex flex-col justify-end overflow-hidden rounded-2xl aspect-[4/5] bg-primary"
+                    href="../netillia_contact_page/code.html">
+                    <div
+                        class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-20">
+                    </div>
+                    <div class="relative p-6 flex flex-col h-full justify-between">
+                        <div class="mt-4">
+                            <h3 class="text-2xl font-bold text-white mb-2">Let's Talk Business</h3>
+                            <p class="text-white/80 text-sm">Have a project in mind? Reach out to our consultants today.
+                            </p>
+                        </div>
+                        <div
+                            class="flex items-center gap-2 text-white font-bold bg-black/20 p-3 rounded-lg backdrop-blur-sm self-start mt-4">
+                            Contact Us <span class="material-symbols-outlined">arrow_forward</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Bold CTA Banner -->
+    <section class="bg-primary py-16 relative overflow-hidden">
+        <!-- Abstract Pattern Overlay -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-60 h-60 bg-black/10 rounded-full blur-2xl"></div>
+        <div class="relative z-10 max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-black text-white mb-4 tracking-tight">
+                Ready to Scale Your Business?
+            </h2>
+            <p class="text-red-100 text-lg mb-8 max-w-2xl mx-auto">
+                Download our comprehensive Business Starter Kit and get access to templates, checklists, and guides
+                designed for the Nigerian market.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button
+                    class="bg-white text-primary hover:bg-gray-100 font-bold py-3 px-8 rounded-lg shadow-lg transition-colors flex items-center justify-center gap-2">
+                    <span class="material-symbols-outlined">download</span>
+                    Download Starter Kit
+                </button>
+                <a href="../netillia_contact_page/code.html"
+                    class="bg-transparent border-2 border-white text-white hover:bg-white/10 font-bold py-3 px-8 rounded-lg transition-colors flex items-center justify-center gap-2">
+                    Book Free Strategy Session
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-background-dark text-white pt-20 pb-10 border-t border-gray-800">
+        <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Brand Info -->
+                <div class="flex flex-col gap-4">
+                    <div class="flex items-center gap-2 mb-2">
+                        <div class="flex h-8 w-8 items-center justify-center rounded bg-primary text-white">
+                            <span class="material-symbols-outlined text-xl">all_inclusive</span>
+                        </div>
+                        <h2 class="text-xl font-bold">Netillia</h2>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Empowering Nigerian entrepreneurs with strategy, automation, and resilience. We turn ambitious
+                        ideas into sustainable businesses.
+                    </p>
+                    <div class="flex gap-4 mt-2">
+                        <a class="text-gray-400 hover:text-white transition-colors" href="#"><span
+                                class="material-symbols-outlined">public</span></a> <!-- placeholder for social -->
+                        <a class="text-gray-400 hover:text-white transition-colors" href="#"><span
+                                class="material-symbols-outlined">group</span></a> <!-- placeholder for social -->
+                        <a class="text-gray-400 hover:text-white transition-colors" href="#"><span
+                                class="material-symbols-outlined">chat</span></a> <!-- placeholder for social -->
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6 text-white">Quick Links</h3>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_home_page/code.html">Home</a></li>
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_about_us_page/code.html">About Us</a></li>
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_services_page/code.html">Services</a></li>
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_case_studies_&_projects/code.html">Case Studies</a></li>
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_contact_page/code.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Services -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6 text-white">Expertise</h3>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_services_page/code.html">Business Consulting</a></li>
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_services_page/code.html">Startup Support</a></li>
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_services_page/code.html">Sales Training</a></li>
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_services_page/code.html">Process Automation</a></li>
+                        <li><a class="hover:text-primary transition-colors"
+                                href="../netillia_services_page/code.html">SME Development</a></li>
+                    </ul>
+                </div>
+                <!-- Newsletter -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6 text-white">Join Our Newsletter</h3>
+                    <p class="text-gray-400 text-sm mb-4">Get the latest business insights and trends delivered to your
+                        inbox.</p>
+                    <form class="flex flex-col gap-3">
+                        <input
+                            class="bg-white/5 border border-gray-700 text-white text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 placeholder-gray-500"
+                            placeholder="Enter your email" required="" type="email" />
+                        <button
+                            class="text-white bg-primary hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-primary/30 font-bold rounded-lg text-sm w-full px-5 py-2.5 text-center transition-colors"
+                            type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">© 2024 Netillia Consulting. All rights reserved.</p>
+                <div class="flex gap-6 text-sm text-gray-500">
+                    <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+                    <a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
