@@ -45,53 +45,53 @@
     <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root">
         <!-- Top Navigation -->
         <header
-            class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e6dbdb] dark:border-b-[#3a2e2e] bg-white dark:bg-[#1a0f0f] px-6 py-3 lg:px-10">
-            <a href="index.html" class="flex items-center gap-2">
-                <img src="images/netillia logo.png" alt="Netillia Logo" class="h-12 w-auto"><span class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Netillia</span>
-            </a>
-            <div class="flex flex-1 justify-end gap-8 hidden lg:flex">
-                <div class="flex items-center gap-9">
-                    <a class="text-[#181111] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors"
-                        href="index.html">Home</a>
-                    <a class="text-[#181111] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors"
-                        href="about.html">About Us</a>
-                    <a class="text-primary text-sm font-bold" href="services.html">Services</a>
-                    <a class="text-[#181111] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors"
-                        href="case-studies.html">Success Stories</a>
-                    <a class="text-[#181111] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors"
-                        href="testimonials.html">Testimonials</a>
-                    <a class="text-[#181111] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors"
-                        href="contact.html">Contact</a>
+            class="sticky top-0 z-50 w-full border-b border-gray-100 dark:border-gray-800 bg-white/95 dark:bg-background-dark/95 backdrop-blur-sm">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex h-20 items-center justify-between">
+                    <!-- Logo -->
+                    <a href="index.html" class="flex items-center gap-2">
+                        <img src="images/netillia logo.png" alt="Netillia Logo" class="h-12 w-auto">
+                        <span class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Netillia</span>
+                    </a>
+                    
+                    <!-- Desktop Navigation -->
+                    <nav class="hidden md:flex items-center gap-8">
+                        <a class="text-sm font-medium transition-colors text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="index.html">Home</a>
+                        <a class="text-sm font-medium transition-colors text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="about.html">About Us</a>
+                        <a class="text-sm font-medium transition-colors text-primary" href="services.html">Services</a>
+                        <a class="text-sm font-medium transition-colors text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="case-studies.html">Success Stories</a>
+                        <a class="text-sm font-medium transition-colors text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="testimonials.html">Testimonials</a>
+                        <a class="text-sm font-medium transition-colors text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="contact.html">Contact</a>
+                    </nav>
+
+                    <!-- CTA Button -->
+                    <div class="hidden md:flex items-center gap-4">
+                        <a href="contact.html" class="flex h-10 items-center justify-center rounded-lg bg-primary px-6 text-sm font-bold text-white transition-all hover:bg-red-700 hover:shadow-lg active:scale-95">
+                            Book a Consultation
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button id="mobile-menu-btn" class="md:hidden flex items-center justify-center p-2 text-slate-600 dark:text-slate-300">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
                 </div>
-                <a href="contact.html"
-                    class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold shadow-md hover:bg-red-700 transition-colors">
-                    <span class="truncate">Book Assessment</span>
-                </a>
             </div>
-            <button id="mobile-menu-btn" class="lg:hidden text-[#181111] dark:text-white">
-                <span class="material-symbols-outlined">menu</span>
-            </button>
+
             <!-- Mobile Navigation Menu (Hidden by default) -->
             <div id="mobile-menu"
-                class="hidden lg:hidden absolute top-16 left-0 w-full bg-white dark:bg-[#1a0f0f] border-b border-[#e6dbdb] dark:border-[#3a2e2e] shadow-lg animate-in slide-in-from-top-5 duration-200 z-50">
+                class="hidden md:hidden border-t border-gray-100 dark:border-gray-800 bg-white dark:bg-background-dark shadow-lg animate-in slide-in-from-top-5 duration-200">
                 <div class="px-4 pt-2 pb-6 space-y-2">
-                    <a href="index.html"
-                        class="block px-3 py-2 text-base font-medium text-[#181111] dark:text-gray-200 hover:text-primary hover:bg-gray-50 dark:hover:bg-[#3a2e2e]/50 rounded-lg">Home</a>
-                    <a href="about.html"
-                        class="block px-3 py-2 text-base font-medium text-[#181111] dark:text-gray-200 hover:text-primary hover:bg-gray-50 dark:hover:bg-[#3a2e2e]/50 rounded-lg">About
-                        Us</a>
-                    <a href="services.html"
-                        class="block px-3 py-2 text-base font-medium text-[#181111] dark:text-gray-200 hover:text-primary hover:bg-gray-50 dark:hover:bg-[#3a2e2e]/50 rounded-lg">Services</a>
-                    <a href="case-studies.html"
-                        class="block px-3 py-2 text-base font-medium text-[#181111] dark:text-gray-200 hover:text-primary hover:bg-gray-50 dark:hover:bg-[#3a2e2e]/50 rounded-lg">Success Stories</a>
-                    <a href="testimonials.html"
-                        class="block px-3 py-2 text-base font-medium text-[#181111] dark:text-gray-200 hover:text-primary hover:bg-gray-50 dark:hover:bg-[#3a2e2e]/50 rounded-lg">testimonials</a>
-                    <a href="contact.html"
-                        class="block px-3 py-2 text-base font-medium text-[#181111] dark:text-gray-200 hover:text-primary hover:bg-gray-50 dark:hover:bg-[#3a2e2e]/50 rounded-lg">Contact</a>
-                    <div class="pt-4 mt-2 border-t border-[#e6dbdb] dark:border-[#3a2e2e]">
+                    <a href="index.html" class="block px-3 py-2 text-base font-medium rounded-lg text-slate-600 dark:text-slate-300 hover:bg-red-50 dark:hover:bg-red-900/10 hover:text-primary">Home</a>
+                    <a href="about.html" class="block px-3 py-2 text-base font-medium rounded-lg text-slate-600 dark:text-slate-300 hover:bg-red-50 dark:hover:bg-red-900/10 hover:text-primary">About Us</a>
+                    <a href="services.html" class="block px-3 py-2 text-base font-medium rounded-lg bg-red-50 dark:bg-red-900/10 text-primary">Services</a>
+                    <a href="case-studies.html" class="block px-3 py-2 text-base font-medium rounded-lg text-slate-600 dark:text-slate-300 hover:bg-red-50 dark:hover:bg-red-900/10 hover:text-primary">Success Stories</a>
+                    <a href="testimonials.html" class="block px-3 py-2 text-base font-medium rounded-lg text-slate-600 dark:text-slate-300 hover:bg-red-50 dark:hover:bg-red-900/10 hover:text-primary">Testimonials</a>
+                    <a href="contact.html" class="block px-3 py-2 text-base font-medium rounded-lg text-slate-600 dark:text-slate-300 hover:bg-red-50 dark:hover:bg-red-900/10 hover:text-primary">Contact</a>
+                    <div class="pt-4 mt-2 border-t border-gray-100 dark:border-gray-800">
                         <a href="contact.html"
-                            class="flex items-center justify-center w-full h-10 rounded-lg bg-primary text-white font-bold hover:bg-red-700 transition-colors">Book
-                            Assessment</a>
+                            class="flex items-center justify-center w-full h-11 rounded-lg bg-primary text-white font-bold hover:bg-red-700 transition-colors">Book
+                            a Consultation</a>
                     </div>
                 </div>
             </div>
